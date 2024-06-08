@@ -58,3 +58,69 @@
     </header>
 </body>
 </html>
+
+/* /css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    background-color: #077272;
+    color: #fff;
+    padding: 10px 0;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+ 
+nav ul li {
+    margin: 0 15px;
+}
+ 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+nav ul li.active a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+ 
+footer {
+    background-color: #09816d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+ 
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+#about-me {
+    margin-top: 20px;
+}
+ 
+#about-me img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+ 
+#about-me p {
+    text-align: center;
+}
