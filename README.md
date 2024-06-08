@@ -1,21 +1,19 @@
+⭐😊INDEX.PHP CODE
 <!-- /index.php -->
 <?php include 'includes/header.php'; ?>
 <main>
-            <h1>Welcome to My Website</h1>
-            <p>You are explore my Life</p>
-            <section id="about-me">
-            <h2>About Me</h2>
-            <p>Hello! My name is Arshpreet, and I am passionate about web development. I enjoy creating dynamic and responsive websites using the latest technologies. In my spare time, I love exploring new programming languages and frameworks, as well as contributing to open-source projects. Welcome to my personal website where I share my projects and more about my journey in the tech world. Thank you for visiting!</p>
+           <h1>Welcome to My World</h1>
+           <p>Explore more about Me</p>
+           <section id="about-me">
+           <h2>About Me</h2>
+           <img src="https://i.pinimg.com/550x/69/da/63/69da631d7d76642ca52e41e15624f46b.jpg" alt="Profile Picture">
+           <p>Hello! My name is Arshpreet, and I am passionate about web development. I enjoy creating dynamic and responsive websites using the latest technologies. In my spare time, I love exploring new programming languages and frameworks, as well as contributing to open-source projects. Welcome to my personal website where I share my projects and more about my journey in the tech world. Thank you for visiting!</p>
 </section>
 </main>
 <?php include 'includes/footer.php'; ?>
 
 
-<!-- /includes/footer.php -->
-<footer>
-    <p>&copy; <?= date("Y") ?> My First PHP Website. All rights reserved.</p>
-</footer>
-    
+⭐😊ABOUT CODE    
 <!-- /about.php -->
 <?php include 'includes/header.php'; ?>
 <main>
@@ -33,6 +31,8 @@
 </main>
 <?php include 'includes/footer.php'; ?>
 
+
+⭐😊HEADER.PHP CODE
 <!-- /includes/header.php -->
 <!DOCTYPE html>
 <html lang="en">
@@ -59,6 +59,8 @@
 </body>
 </html>
 
+
+⭐😊CSS CODE
 /* /css/styles.css */
 body {
     font-family: Arial, sans-serif;
@@ -124,3 +126,11 @@ main {
 #about-me p {
     text-align: center;
 }
+
+
+⭐😊FOOTER CODE
+<!-- /includes/footer.php -->
+<footer>
+    <p>&copy; <?= date("Y") ?> My First PHP Website. All rights reserved.</p>
+</footer>
+    
